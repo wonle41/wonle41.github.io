@@ -3,651 +3,374 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 파비콘/폰트 -->
-    <title>won's portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
-
-    <link rel="shortcut icon" href="./img/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/index.css">
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>일민미술관</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
 </head>
-<!-- mobile first -->
 <body>
     <div class="wrap">
-        <header>
-            <div class="navWrap">
-                <h1 id="logo">
-                    <a href="./index.html"><img src="./img/포폴-로고2.png" alt="logo"></a>
-                </h1>
-                <button class="navBtn mobile">
-                    <span>메뉴</span>
-                </button>
-                <nav>
-                    <div class="navIn clear">
-                        <span>
-                            <a href="#"><i class="fa-solid fa-xmark fa-2xl"></i></a>
-                        </span>
-                        <ul>
-                            <li><a href="#logo">HOME</a></li>
-                            <li><a href="#profill">PROFILE</a></li>
-                            <li><a href="#design1">POSTER</a></li>
-                            <li><a href="#design2">Design</a></li>
-                            <li><a href="#web">WEB</a></li>
-                            <li><a href="#contact">CONTACT</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div><!--//navWrap-->
-            <div class="visual">
-                <div class="mvisual mobile">
-                  <p>
-                    2024
-                    <span>
-                      portfolio
-                    </span>
-                    &mdash; Lee Won &mdash;
-                  </p>
+        <div class="headerwrap">
+            <header id="header">
+                <div class="headIn">
+                    <h2 id="logo"><a href="#"><img src="./imges/logo.png" alt="logo"></a></h2>
+                        <nav id="nav">
+                            <ul>
+                                <li>
+                                    <a href="#">EXHIBITION</a>
+                                    <ul class="sub">
+                                        <li><a href="#">Current</a></li>
+                                        <li><a href="#">Past</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">PROGRAMS</a>
+                                </li>
+                                <li>
+                                    <a href="#">ARCHIVES</a>
+                                </li>
+                                <li>
+                                    <a href="#">VISIT</a>
+                                    <ul class="sub">
+                                        <li><a href="#">Visit Information</a></li>
+                                        <li><a href="#">Membership</a></li>
+                                        <li><a href="#">Calender</a></li>
+                                        <li><a href="#">Cafe & Bookshop</a></li>
+                                        <li><a href="#">Store</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">ABOUT</a>
+                                    <ul class="sub">
+                                        <li><a href="#">Ilmin Museum Of Art</a></li>
+                                        <li><a href="#">Ilmin Cultural</a></li>
+                                        <li><a href="#">Foundation</a></li>
+                                        <li><a href="#">Presseum</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">NOTICE</a>
+                                </li>
+                            </ul>
+                        </nav>
                 </div>
-                <div class="visual pc">
-                  <p>
-                    2024
-                    <span>
-                      portfolio
-                    </span>
-                    &mdash; Lee Won &mdash;
-                  </p>
-                </div>
-            </div>
-            <div class="profile" id="profile">
-                    <h2 class="pc">ABOUT ME</h2>
-                    <span class="mabout mobile">ABOUT ME</span>
-                    <div class="mphoto mobile">
-                      <img src="./img/이원.jpg" alt="won">
-                    </div>
-                    <div class="photo pc">
-                      <img src="./img/이원.jpg" alt="won">
-                    </div>
-                  <div class="mtextall mobile">
-                            <div class="mbox1">
-                                <span class="mtitle mobile">profile</span>
-                                <ul>
-                                    <li>이원</li>
-                                    <li>1996.09.11</li>
-                                    <li>wonle41@naver.com</li>
-                                </ul>
-                            </div>
-                            <div class="mbox2">
-                                <span class="mtitle mobile">education</span>
-                                <ul>
-                                    <li>2015 서울공업고등학교 졸업</li>
-                                    <li>2024 MBC 아카데미 UI/UX웹디자인  웹퍼블리셔 프론트엔드 과정 수료</li>
-                                </ul>
-                            </div>
-                            <div class="mbox3">
-                                <span class="mtitle mobile">license</span>
-                                <ul>
-                                    <li>2014 공유압 기능사 자격증 취득</li>
-                                    <li>2015 운전면허 1종 보통 취득</li>
-                                    <li>2024 포토샵 1급 자격증 취득</li>
-                                </ul>
-                            </div>
-                            <div class="mbox4">
-                                <span class="mtitle mobile">skills</span>
-                                <div class="mskill mobile">
-                                    <img src="./img/스킬3.png" alt="skill">
-                                </div>
-                            </div>
-                    </div>
-                  <div class="textall pc">
-                            <div class="box1">
-                                <span class="title pc">profile</span>
-                                <ul>
-                                    <li>이원</li>
-                                    <li>1996.09.11</li>
-                                    <li>wonle41@naver.com</li>
-                                </ul>
-                            </div>
-                            <div class="box2">
-                                <span class="title pc">education</span>
-                                <ul>
-                                    <li>2015 서울공업고등학교 졸업</li>
-                                    <li>2024 MBC 아카데미 UI/UX <br>웹디자인 웹퍼블리셔 프론트엔드 과정 수료</li>
-                                </ul>
-                            </div>
-                            <div class="box3">
-                                <span class="title pc">license</span>
-                                <ul>
-                                    <li>2014 공유압 기능사 자격증 취득</li>
-                                    <li>2015 운전면허 1종 보통 취득</li>
-                                    <li>2024 포토샵 1급 자격증 취득</li>
-                                </ul>
-                            </div>
-                            <div class="box4">
-                                <span class="title pc">skills</span>
-                                <div class="skill">
-                                    <img src="./img/스킬3.png" alt="skill">
-                                </div>
-                            </div>
-                    </div>
-            </div>
-        </header>
-        <!-- <nav class="section mobile">
-            <ul>
-                <li class="on"><a href="#design1">POSTER</a></li>
-                <li><a href="#design2">LOGO</a></li>
-                <li><a href="#web">web</a></li>
-            </ul>
-        </nav> -->
-        <div class="main">
-              <section id="design1">
-                  <h3 class="mobile">poster design</h3>
-                  <h3 class="pc">poster design</h3>
-                  <div class="pop poster">
-                      <div class="poster1"></div>
-                  </div>
-                  <div class="contWrap swiper mySwiper"id="poster">
-                      <ul class="swiper-wrapper">
-                          <li class="swiper-slide hover">
-                            <a href="#페이지로 이동"><img src="./img/나의해방일지 포스터2.png" alt="1">
-                            </a>
-                            <div class="pname">
-                              <h3 class="phover">나의 해방일지 <em>사용툴:포토샵<br>기여도:100%</em></h3>
-                            </div>
-                          </li>
-                          <li class="swiper-slide hover">
-                            <a href="#페이지로 이동"><img src="./img/인터스텔라-포스터2.png" alt="2">
-                            </a>
-                            <div class="pname">
-                              <h3 class="phover">인터스텔라<em>사용툴:포토샵<br>기여도:100%</em></h3>
-                            </div>
-                          </li>
-                          <li class="swiper-slide hover">
-                            <a href="#페이지로 이동"><img src="./img/서울의봄-포스터2.png" alt="3">
-                            </a>
-                            <div class="pname">
-                              <h3 class="phover">서울의봄 <em>사용툴:포토샵<br>기여도:100%</em></h3>
-                            </div>
-                          </li>
-                          <li class="swiper-slide hover">
-                            <a href="#페이지로 이동"><img src="./img/듄-포스터2.png" alt="4">
-                            </a>
-                            <div class="pname">
-                              <h3 class="phover">듄<em>사용툴:포토샵<br>기여도:100%</em></h3>
-                            </div>
-                          </li>
-                          <li class="swiper-slide hover">
-                            <a href="#페이지로 이동"><img src="./img/공익광고-포스터2.png" alt="5">
-                            </a>
-                            <div class="pname">
-                              <h3 class="phover">공익광고<em>사용툴:포토샵<br>기여도:100%</em></h3>
-                            </div>
-                          </li>
-                          <li class="swiper-slide hover">
-                            <a href="#페이지로 이동"><img src="./img/마이네임-포스터2.png" alt="6">
-                            </a>
-                            <div class="pname">
-                              <h3 class="phover">마이네임<em>사용툴:포토샵<br>기여도:100%</em></h3>
-                            </div>
-                          </li>      
-                      </ul>
-                      <div class="swiper-pagination pc"></div>
-                  </div>
-                  <script>
-                      var swidth = $("#design1 .swiper-slide").outerWidth();
-                      var swiper = new Swiper("#design1 .mySwiper", {
-                        slidesPerView: 1,
-                        spaceBetween: 10,
-                        loop: true,
-                        pagination: {
-                          el: ".swiper-pagination",
-                          clickable: true,
-                        },
-                        breakpoints: {
-                          640: {
-                            slidesPerView: 1,
-                            spaceBetween: 20,
-                          },
-                          768: {
-                            slidesPerView: 3,
-                            spaceBetween: 40,
-                          },
-                          1024: {
-                            slidesPerView: 3,
-                            spaceBetween: 50,
-                          },
-                        },
-                      });
-                    </script>
-              </section>
-              <section id="design2">
-                  <h3 class="mobile">Design Works</h3>
-                  <h3 class="pc">Design Works</h3>
-                  <div class="design2pop">
-                      <div class="design2popimg">
-                          <img src="./img/designimg/designimg1.png" alt="1">
-                      </div>
-                  </div>
-                   <div class="design2pageclose">
-                      <a href="#">
-                        <i class="fa-solid fa-xmark fa-2xl"></i>
-                      </a>
-                    </div>
-                  <div class="designWorks pc">
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <img src="./img/designimg/designimg1.png" alt="1">
-                            <div class="dname">
-                                라운드랩 SNS배너
-                            </div>  
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <img src="./img/designimg/designimg2.png" alt="2">
-                            <div class="dname">
-                              고집츄르 SNS배너
-                          </div>  
-                        </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <img src="./img/designimg/설향딸기메인이미지.png" alt="3">
-                            <div class="dname">
-                              설향 딸기 상세페이지
-                          </div>  
-                        </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <img src="./img/designimg/로고메인이미지.png" alt="4">
-                            <div class="dname">
-                              로고 상세페이지
-                          </div>  
-                        </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <img src="./img/designimg/닥터지.png" alt="5">
-                            <div class="dname">
-                              닥터지 상세페이지
-                          </div>  
-                          </a>
-                        </li>
-                        <!-- <li><a href="#"></a></li> -->
-                      </ul>
-                  </div>
-                  <div class="designWorks mobile">
+                    <div class="subback"></div>
+            </header>
+            <div class="main_slidewrap">
+                <div class="main_slide">
                     <ul>
-                      <li>
-                        <a href="#">                         
-                          <div class="dname">
-                              라운드랩 SNS배너
-                          </div>  
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">                       
-                          <div class="dname">
-                            고집츄르 SNS배너
-                        </div>  
-                      </a>
-                      </li>
-                      <li>
-                        <a href="#">                      
-                          <div class="dname">
-                            설향 딸기 상세페이지
-                        </div>  
-                      </a>
-                      </li>
-                      <li>
-                        <a href="#">                    
-                          <div class="dname">
-                            로고 상세페이지
-                        </div>  
-                      </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="dname">
-                              닥터지 상세페이지
-                          </div>  
-                        </a>
-                      </li>
-                      <!-- <li><a href="#"></a></li> -->
+                        <li><a href="#"><img src="./imges/slide1.jpg" alt="1"></a></li>
+                        <li><a href="#"><img src="./imges/slide2.jpg" alt="2"></a></li>
+                        <li><a href="#"><img src="./imges/slide3.jpg" alt="3"></a></li>
                     </ul>
                 </div>
-                  <script>
-                    $('#design2 .designWorks li a').click(function(e){
-                        e.preventDefault();
-                        $('.design2pop').scrollTop(0);
-                        $('.design2pop').addClass('on');
-                        $('.design2pageclose').addClass('on');
-                        let designpop=$(this).parents('#design2 .designWorks li').index();
-                        let designimg=[
-                            "img/designimg/designimg1.png",
-                            "img/designimg/designimg2.png",
-                            "img/designimg/designimg3.png",
-                            "img/designimg/designimg4.png",
-                            "img/designimg/designimg5.png"
-                        ]
-                        $('.design2pop .design2popimg img').attr('src', designimg[designpop]);
-
-
-                    });
-                    $('.design2pageclose').click(function(e){
-                          e.preventDefault();
-                          $('.design2pop').removeClass('on')
-                          $('.design2pageclose').removeClass('on')
-                        })
-                  </script>
-              </section>
-              <section id="web">
-                  <h3 class="mobile">web</h3>
-                  <h3 class="pc">web</h3>
-                  <div class="webpop">
-                      <div class="webpopimg">
-                          <img src="./img/detailpage/detail1.jpg" alt="1">
-                      </div>
-                  </div>
-                  <div class="webpageclose">
-                    <a href="#">
-                      <i class="fa-solid fa-xmark fa-2xl"></i>
-                    </a>
-                  </div>
-                  <div class="swiper container">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                          <img src="./img/비레디.png" alt="1" data-swiper-parallax="-2000">
-                          <div class="textboxall pc">
-                            <div class="textboxweb1">
-                              <ul>
-                                <li class="webtext01" data-swiper-parallax="-800">01</li>
-                                <li class="webtext02" data-swiper-parallax="-800">비레디</li>
-                                <li class="webtext03" data-swiper-parallax="-800">개인 프로젝트 웹사이트 리뉴얼</li>
-                              </ul>
-                            </div>
-                            <div class="textboxweb2">
-                              <ul>
-                                <li class="webtext1" data-swiper-parallax="-800">
-                                  <span class="title1">기여도</span>
-                                  개인작업 100%
-                                </li>
-                                <li class="webtext1" data-swiper-parallax="-800">
-                                  <span class="title1">사용툴</span>
-                                  HTML, CSS, Javascript, Jquery</li>
-                                <li class="webtext1" data-swiper-parallax="-800">
-                                  <span class="title1">FONT</span>
-                                  Noto Sans KR
-                                </li>
-                                <li class="webtext1" data-swiper-parallax="-800">
-                                  <span class="title1">COLOR</span>
-                                  <div class="color1">1</div>
-                                  <div class="color2">2</div>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="button pc" data-swiper-parallax="-1000">
-                              <a href="https://www.brdy-official.com/" target="_blank">original</a>
-                              <a href="./web/비레디/index.html" target="_blank">website</a>
-                              <a href="#" class="webidbtn">작업과정</a>
-                          </div>
-                          <div class="button mobile"  data-swiper-parallax="-1000">
-                              <a href="https://www.brdy-official.com/" target="_blank">original</a>
-                              <a href="./web/비레디/index.html" target="_blank">website</a>
-                              <!-- <a href="#" class="webidbtn">작업과정</a> -->
-                          </div>
-                      </div>
-                      <div class="swiper-slide">
-                          <img src="./img/엔제리너스.png" alt="2" data-swiper-parallax="-2000">
-                          <div class="textboxall pc">
-                            <div class="textboxweb1">
-                              <ul>
-                                <li class="webtext01-2" data-swiper-parallax="-800">02</li>
-                                <li class="webtext02" data-swiper-parallax="-800">엔제리너스</li>
-                                <li class="webtext03" data-swiper-parallax="-800">개인 프로젝트 웹사이트 리뉴얼</li>
-                              </ul>
-                            </div>
-                          <div class="textboxweb2">
-                            <ul>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">기여도</span>
-                                개인작업 100%
-                              </li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">사용툴</span>
-                                HTML, CSS, Javascript, Jquery</li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">FONT</span>
-                                NanumGothic
-                              </li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">COLOR</span>
-                                <div class="color3">1</div>
-                                <div class="color4">2</div>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="button pc" data-swiper-parallax="-1000">
-                            <a href="https://www.lotteeatz.com/brand/angel" target="_blank">original</a>
-                            <a href="./web/엔젤리너스(공차)_이원/index.html" target="_blank">website</a>
-                            <a href="#" class="webidbtn">작업과정</a>
-                        </div>
-                        <div class="button mobile"  data-swiper-parallax="-1000">
-                          <a href="https://www.lotteeatz.com/brand/angel" target="_blank">original</a>
-                          <a href="./web/엔젤리너스(공차)_이원/index.html" target="_blank">website</a>
-                          <!-- <a href="#" class="webidbtn">작업과정</a> -->
-                      </div>
-                        </div>
-                      <div class="swiper-slide">
-                          <img src="./img/너의 이름은.png" alt="2" data-swiper-parallax="-2000">
-                          <div class="textboxall pc">
-                            <div class="textboxweb1">
-                              <ul>
-                                <li class="webtext01-3" data-swiper-parallax="-800">03</li>
-                                <li class="webtext02" data-swiper-parallax="-800">너의 이름은</li>
-                                <li class="webtext03" data-swiper-parallax="-800">개인 창작 웹사이트</li>
-                              </ul>
-                            </div>
-                          <div class="textboxweb2">
-                            <ul>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">기여도</span>
-                                개인작업 100%
-                              </li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">사용툴</span>
-                                HTML, CSS, Javascript, Jquery</li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">FONT</span>
-                                GmarketSansMedium
-                              </li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">COLOR</span>
-                                <div class="color5">1</div>
-                                <div class="color6">2</div>
-                                <div class="color6-1">3</div>
-                                <div class="color6-2">4</div>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="button pc" data-swiper-parallax="-1000">
-                            <a href="./web/너의 이름은/index1.html" target="_blank">website</a>
-                            <a href="#" id="fontcolor" class="webidbtn">작업과정</a>
-                        </div>
-                        <div class="button mobile" id="button3" data-swiper-parallax="-1000">
-                          <a href="./web/너의 이름은/index1.html" target="_blank">website</a>
-                          <!-- <a href="#" id="fontcolor" class="webidbtn">작업과정</a> -->
-                      </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <img src="./img/일민미술관.png" alt="2" data-swiper-parallax="-2000">
-                          <div class="textboxall pc">
-                            <div class="textboxweb1">
-                              <ul>
-                                <li class="webtext01-4" data-swiper-parallax="-800">04</li>
-                                <li class="webtext02" data-swiper-parallax="-800">일민미술관</li>
-                                <li class="webtext03" data-swiper-parallax="-800">팀 프로젝트 웹사이트 리뉴얼</li>
-                              </ul>
-                            </div>
-                          <div class="textboxweb2">
-                            <ul>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">기여도</span>
-                                팀작업(2인) 50%
-                              </li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">사용툴</span>
-                                HTML, CSS, Javascript, Jquery</li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">FONT</span>
-                                EB Garamond, Noto Sans KR
-                              </li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">COLOR</span>
-                                <div class="color7">1</div>
-                                <div class="color8">2</div>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="button pc" data-swiper-parallax="-1000">
-                            <a href="https://ilmin.org/" target="_blank">original</a>
-                            <a href="./web/일민미술관/index.html" target="_blank">website</a>
-                            <a href="#" class="webidbtn">작업과정</a>
-                        </div>
-                        <div class="button mobile"  data-swiper-parallax="-1000">
-                          <a href="https://ilmin.org/" target="_blank">original</a>
-                          <a href="./web/일민미술관/index.html" target="_blank">website</a>
-                          <!-- <a href="#" class="webidbtn">작업과정</a> -->
-                      </div>
-                        </div>
-                      <div class="swiper-slide">
-                          <img src="./img/데일리호텔.png" alt="2" data-swiper-parallax="-2000">
-                          <div class="iphone pc">
-                            <img src="./img/데일리호텔 아이폰.png" alt="ip1" data-swiper-parallax="-2000">
-                          </div>
-                          <div class="iphone mobile">
-                            <img src="./img/데일리호텔 아이폰.png" alt="ip1" data-swiper-parallax="-2000">
-                          </div>
-                          <div class="textboxall pc">
-                            <div class="textboxweb1">
-                              <ul>
-                                <li class="webtext01-5" data-swiper-parallax="-800">05</li>
-                                <li class="webtext02" data-swiper-parallax="-800">데일리호텔(반응형)</li>
-                                <li class="webtext03" data-swiper-parallax="-800">개인 프로젝트 웹사이트 리뉴얼</li>
-                              </ul>
-                            </div>
-                          <div class="textboxweb2">
-                            <ul>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">기여도</span>
-                                개인작업 100%
-                              </li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">사용툴</span>
-                                HTML, CSS</li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">FONT</span>
-                                GmarketSansMedium
-                              </li>
-                              <li class="webtext1" data-swiper-parallax="-800">
-                                <span class="title1">COLOR</span>
-                                <div class="color9">1</div>
-                                <div class="color10">2</div>
-                                <div class="color11">2</div>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="button pc" data-swiper-parallax="-1000">
-                            <a href="https://www.dailyhotel.com/" target="_blank">original</a>
-                            <a href="./web/호텔/index1.html" target="_blank">website</a>
-                            <a href="#" class="webidbtn">작업과정</a>
-                        </div>
-                        <div class="button mobile"  data-swiper-parallax="-1000">
-                            <a href="https://www.dailyhotel.com/" target="_blank">original</a>
-                            <a href="./web/호텔/index1.html" target="_blank">website</a>
-                            <!-- <a href="#" class="webidbtn">작업과정</a> -->
-                        </div>
-                      </div>
-                      </div>
+                    <div class="rolling">
+                        <ul>
+                            <li class="active">
+                               <span>01</span>
+                               <br>
+                               <strong>Ilmin GALLERY SHOP</strong>
+                            </li>
+                            <li>
+                                <span>02</span>
+                               <br>
+                               <strong>Grand open</strong>
+                            </li>
+                            <li>
+                                <span>03</span>
+                               <br>
+                               <strong>Ilmin</strong>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="swiper-pagination pc"></div>
-                    <div class="swiper-button-next pc"></div>
-                    <div class="swiper-button-prev pc"></div>
-                    <div class="swiper-button-next mobile"></div>
-                    <div class="swiper-button-prev mobile"></div>
-                  
-                  <script>
-                    var swiper = new Swiper(".container", {
-                      spaceBetween: 30,
-                      parallax: true,
-                      effect: "fade",
-                      navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                      },
-                      pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true,
-                      },
-                  
-                    });
-                    //webpop
-                    $('#web .webidbtn').click(function(e){
-                        e.preventDefault();
-                        $('.webpop').scrollTop(0);
-                        $('.webpop').addClass('on');
-                        $('.webpageclose').addClass('on');
-                        let webpop=$(this).parents('#web .swiper-slide').index();
-                        let detailimg=[
-                            "img/detailpage/detail1.jpg",
-                            "img/detailpage/detail2.jpg",
-                            "img/detailpage/detail3.jpg",
-                            "img/detailpage/detail4.jpg",
-                            "img/detailpage/detail5.jpg"
-                        ]
-                        $('.webpop .webpopimg img').attr('src', detailimg[webpop]);
-
+            </div><!--//slidewrap-->
+        </div><!--//headerwrap-->
+        <section id="section">
+            <div class="content1">
+                <div class="c1_inner">
+                    <div class="c1_top">
+                        <p>일민에서 열리는 새로운 전시를 소개합니다.</p>
+                        <h3>EXHIBITIONS</h3>
+                    </div>
+                    <div class="slideWrap">
+                        <div class="slideView">
+                            <ul class="slide">
+                                <li>
+                                    <img src="./imges/c1_forever.jpg" alt="1">
+                                    <div class="textbox">
+                                        <p>isvn 외 11인</p>
+                                        <p>《포에버리즘: 우리를 세상의 끝으로》</p>
+                                        <p>현재라는 시간성이 현실을 이루는 방식을 통찰하고, 지금 우리 삶에 나타나는 영원주의의 징후와 그에 답하는 동시대 시각 문화의 양상을 검토한다.</p>
+                                        <a href="#">Read More</a>
+                                        </div>
+                                </li>
+                                <li>
+                                    <img src="./imges/c1_dear.jpg" alt="2">
+                                    <div class="textbox">
+                                            <p>조은지, 파도식물 외 15인</p>
+                                            <p>《Dear Amazon : 인류세<br>
+                                                2019 Peace BAR Festival》</p>
+                                            <p>Peace BAR Festival은 UN총회의 ‘세계평화의날’ 제정을 기념해 1982년부터 매년 9월 개최되어왔으며, 올해 페스티벌에서는 ‘미래세대에게 미래는 있는가?’를 주제로 지구적 난제인 기후위기 문제를 위해 지혜를 나눕니다.</p>
+                                            <a href="#">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="./imges/c1_fortune.jpg" alt="3">
+                                        <div class="textbox">
+                                            <p>비디오로즈 외 16인</p>
+                                            <p>《Fortune Telling: 운명상담소》</p>
+                                            <p>과학적 세계관에 비추어 볼 때 열등하고 미신이라 여겨지던 샤머니즘이나 명리학, 타로, 점술 등 우주론적 세계관을 ‘예술적 도구’로 재발견한 다양하고 흥미로운 작업을 선보인다.</p>
+                                            <a href="#">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="./imges/c1_super.jpeg" alt="4">
+                                        <div class="textbox">
+                                            <p>구기정, 기슬기 외 7인</p>
+                                            <p>《Super-fine: 가벼운 사진술》</p>
+                                            <p>수퍼 파인한 사진은 이미지의 가벼움 그리고 얄팍함을 통해 한층 무겁고 견고해진다. 이 아이러니한 대비를 관찰함으로써 전시는 가벼운 사진술이 오늘의 지배적 시각문화를 창출하는 방식을 추론한다.</p>
+                                            <a href="#">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li><img src="./imges/c1_un.jpeg" alt="5">
+                                        <div class="textbox">
+                                            <p>강혜원, 고원태 외 22인</p>
+                                            <p>《언커머셜(UNCOMMERCIAL): 한국 상업사진, 1984년 이후》</p>
+                                            <p>《언커머셜》은 1984년 이후 동시대 상업사진의 발전과 도약을 이끌어 온 사진가 29인을 통해 한국 상업사진의 고유한 의의를 탐색하고 오늘날 ‘커머셜’의 의미를 새롭게 발견하고자 한다.</p>
+                                            <a href="#">Read More</a>
+                                        </div></li>
+                                    <li>
+                                        <img src="./imges/c1_you.jpeg" alt="6">
+                                        <div class="textbox">
+                                            <p>박윤영 개인전</p>
+                                            <p>《YOU, Live!: 12개의 문고리》</p>
+                                            <p>‘You’로 시작하는 2인칭 시점의 내레이션은 관객을 주인공으로 이끈다. 스크립트, 사운드, 비디오, 드로잉, 조각, 아카이브의 유기적 장치는 당신의 상황에 개입해 우연적이고 즉흥적인 무대를 선사한다.</p>
+                                            <a href="#">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="./imges/c1_linkin.jpeg" alt="7">
+                                        <div class="textbox">
+                                            <p>키라라, 오민 외 10인</p>
+                                            <p>《퍼폼2019: 린킨아웃
+                                                            PERFORM2019:Linkin-out》</p>
+                                            <p>원하는 작품을 선택하면 작품이 서빙되고 작품을 천천히 음미할 수 있는 린킨아웃의 테이블은 작업자와 관객 모두에게 작품의 몸체에서 떠나, 미술의 시간을 펼치고 또 경험하길 제안한다.</p>
+                                            <a href="#">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="./imges/c1_far.jpeg" alt="8">
+                                        <div class="textbox">
+                                            <p>페드로 코스타, 후이샤페즈</p>
+                                            <p>《멀리 있는 방
+                                                            Distant Rooms》</p>
+                                            <p>빛과 물질 이면에 존재하는, 보이지 않는 에너지의 파장에 주목합니다. 이를 더욱 강조하는 것은 칠흑 같은 어둠이다. 예상치 못한 어둠의 정적 속에서 관객은 자신의 존재를 온전히 느끼는 경험을 하게 된다.</p>
+                                            <a href="#">Read More</a>
+                                        </div>
+                                    </li>
+                                </ul> <!-- //.slide -->
+                            </div> <!-- //.slideView -->
+                            <div class="arrow">
+                                <a href="#" class="prev"><i class="fa-solid fa-chevron-left"></i></a>
+                                <a href="#" class="next"><i class="fa-solid fa-chevron-right"></i></a>
+                            </div> <!-- //.arrow -->
+                            
+                        </div> <!-- //.slideWrap -->
+                        <!-- script -->
+                        <script>
+                            $(function(){
+                                
+                                var slide_view = 3; //한번에 보이는 슬라이드 갯수
+                                var slide_width = $(".slide li").outerWidth(true); // 슬라이드 너비 ( margin
+                                var total_slide = $(".slide li").length; // 슬라이드 총 갯수 (8출력)
+                                var barDefault_width = slide_view-1 //슬라이드 갯수-1 (초기에 한칸 채워져야 해서 -1)
+                                // var rollingBar_width = $(".rolling").innerWidth() / (total_slide-barDefault_width); // 1260px 나누기 barDefault_width(슬라이드 갯수-1)
+                                var i=0;
+                                var lastSlide = total_slide - slide_view;
                     
-                    });
-                    $('.webpageclose').click(function(e){
-                          e.preventDefault();
-                          $('.webpop').removeClass('on')
-                          $('.webpageclose').removeClass('on')
-                        })
-                  </script>
-            </section>   
-          </div>
-          <footer id="contact">
-            <h3 class="mobile">contact</h3>
-            <h3 class="pc">contact</h3>
-              <div class="foot1 pc">
-                <span class="foottext pc">thank you~</span>
-                <span class="foottext2 pc">wonle41@naver.com</span>
-              </div>
-              <div class="foot2 pc">
-                <span class="foottext3 pc">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다. <br>
-                  © 2024 Lee Won All Rights Reserved.</span>
-              </div>
-              <div class="foot1 mobile">
-                <span class="foottext mobile">thank you~</span>
-                <span class="foottext2 mobile">wonle41@naver.com</span>
-              </div>
-              <div class="foot2 mobile">
-                <span class="foottext3 mobile">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다. <br>
-                  © 2024 Lee Won All Rights Reserved.</span>
-              </div>
-          </footer>
-        </div>
+        
+                                function slideMove(){
+                                    $(".slide").stop().animate({left: -slide_width * i},500); // 슬라이드 한칸 값 * 순번
+                                }
+                    
+                                /**************** 이전 버튼 클릭 이벤트 (start) ****************/
+                                $(".prev").on("click",function(e){
+                                    e.preventDefault();
+                                    if(i > 0){ /* 조건이(i는 0보다 크다) 참이라면 실행문 실행 */
+                                        i--; /* i= i - 1 (i에서 1을 뺀 후 i에 넣는다) */
+                    
+                        
+                                    }
+                                    
+                                    slideMove(); // 슬라이드 움직임
+                                })
+                                /**************** 이전 버튼 클릭 이벤트 (end) ****************/
+                                
+                                /**************** 다음 버튼 클릭 이벤트 (start) ****************/
+                                $(".next").on("click",function(e){
+                                    e.preventDefault();
+                                    if(i < lastSlide){ /* 조건이(i는 마지막 순번보다 작다) 참이라면 실행문 실행 */
+                                        i++; /* i= i + 1 (i에서 1을 더한 후 i에 넣는다) */
+                    
+                                        if(i>0){
+                                            $(".prev").css({display:"block"}); /* 0보다 크다면 prev 보이기 */
+                                        }
+                                    }
+                                    
+                                    slideMove(); // 슬라이드 움직임
+                                    
+                                })
+                                /**************** 다음 버튼 클릭 이벤트 (end) ****************/
+                    
+                            })
+                        </script>
+                </div>
+            </div><!--//content1-->
+            <div class="cont2">
+                <div class="cont2In">
+                    <div class="top">
+                        <span>일민과 함께하는 프로그램을 소개합니다.</span>
+                        <div></div>
+                        <h2>PROGRAMS</h2>
+                        <div></div>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./imges/c2_0.jpg" alt="0">
+                                    <div class="dim"></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./imges/c2_1.jpg" alt="1">
+                                    <span>비선형적 음악사</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./imges/c2_2.jpg" alt="2">
+                                    <span>아티스트 토크 : <br>Super-fine PIC</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./imges/c2_3.jpg" alt="3">
+                                    <span>신비한 타로<br>스토리텔링</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./imges/c2_4.jpg" alt="4">
+                                    <span>브라질 치즈빵<br>키즈 클래스</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./imges/c2_5.jpg" alt="5">
+                                    <span>맛있는<br>IMA Book Club</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--cont2-->
+            <div class="content3">
+                <div class="tit_wrap">
+                    <span>일민과 함께하는 출판물을 소개합니다.</span>
+                    <h2 class="main_tit">PUBLICATION</h2>
+                </div>
+                <ul class="ul_wrap">
+                    <ul>
+                        <li><a href="https://ilmin.org/publication/ktpinalter-age/"><img src="./imges/20240306_042951.png" alt="pub1"></a></li>
+                        <a href="#"><h3>다시 그린 세계</h3></a>
+                        <p class="detail">일민미술관에서 2022년 10월 28일부터 2023년<br>1월 8일까지 열린 《다시 그린 세계: 한국화의<br>단절과 연속》도록입니다.</p>
+                        <p class="price">22,000원</p>
+                    </ul>
+                    <ul>
+                        <li><a href="https://ilmin.org/publication/i-like-to-watch/"><img src="./imges/20231121_132529.png" alt="pub2"></a></li>
+                        <a href="#"><h3>I Like To Watch</h3></a>
+                        <p class="detail">일민미술관에서 2023년 9월 7일부터 11월 12일까지 열린 이시 우드 개인전 《I Like To Watch》도록입니다.</p>
+                        <p class="price">30,000원</p>
+                    </ul>
+                    <ul>
+                        <li><a href="https://ilmin.org/publication/queenbaby/"><img src="./imges/20231019_112105_1.jpg" alt="pub3"></a></li>
+                        <a href="#"><h3>퀸 베이비</h3></a>
+                        <p class="detail">이시 우드 개인전 《I Like To Watch》의 연계 도서로 출간한 『퀸 베이비』 한국어판 입니다.『퀸 베이비』는 이시 우드가 자신의...</p>
+                        <p class="price">15,000원</p>
+                    </ul>
+                    <ul>
+                        <li><a href="https://ilmin.org/publication/hysteria/"><img src="./imges/20231019_112105_3.jpg" alt="pub4"></a></li>
+                        <a href="#"><h3>히스테리아:동시대 리얼리즘 회</h3></a>
+                        <p class="detail">2023년 4월 일민미술관에서 열린《히스테리아:동시대 리얼리즘 회화》도록입니다.《히스테리아》가 소개하는 리얼리즘...</p>
+                        <p class="price">22,000원</p>
+                    </ul>
+                </ul>
+            </div><!--//content3-->
+            <div class="cont4">
+                <div class="cont4_wrap">
+                    <div class="bg">
+                        <img src="./imges/c4_img.jpg" alt="img">
+                    </div>
+                    <h3>ILMIN MUSEUM OF ART</h3>
+                    <div class="c4_txtbox">
+                        <p>
+                        대한민국의 문화지형적 상징, 서울 광화문 광장 앞에 위치한 일민미술관은 1996년 개관 이래 예술적 실천이 삶을 풍요롭게 가꾼다는 
+                        믿음으로 다양한 전시활동을 전개해 왔습니다. 현대미술의 흐름을 읽어내는 중추적 역할을 수행하면서 국내외 미술계에서 주목 받는 
+                        동시대 미술관으로 활약하고 있습니다.
+                        </p>
+                        <div class="btn">
+                            <a href="#">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!--cont4-->
+            <div class="cont5">
+                <div class="map">
+                    <h3>VISIT INFORMATION</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.3744831680906!2d126.97508997643035!3d37.56979862394001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2ecf019c513%3A0xcd8ce1b39767d509!2z7J2866-866-47Iig6rSA!5e0!3m2!1sko!2skr!4v1717998619941!5m2!1sko!2skr" width="1856" height="505" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="txt">
+                    <ul>
+                        <li><i class="fa-solid fa-map-location-dot"></i>서울시 종로구 세종대로 152 (03187)</li>
+                        <li><i class="fa-solid fa-train-subway"></i>5호선 광화문역 5번 출구 도보 1분/1,2호선 시청역 4번 출구 도보 10분</li>
+                        <li><i class="fa-solid fa-bus"></i>광화문, 교보문고, 세종문화회관 하차</li>
+                    </ul>
+                </div>
+            </div><!--cont5-->
+        </section><!--//section-->
+        <footer id="footer">
+            <div class="footInner">
+                <div class="newsletter">
+                    <div class="sign_h">
+                        <p>
+                            SIGN UP FOR OUR <br> NEWSLETTER
+                        </p>
+                    </div>
+                    <div class="input_box">
+                        <ul>
+                            <li>Enter your email here</li>
+                            <li class="line"></li>
+                            <li>MEMBERSHIP</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copy">
+                    <p>Copyright © 2024 ILMIN MUSEUM OF ART. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href="https://www.instagram.com/ilminmuseumofart/"><i class="fa-brands fa-instagram" style="color: #c0c0c0;"></i></a></li>
+                    <li><a href="https://x.com/ilminart"><i class="fa-brands fa-twitter" style="color: #c0c0c0;"></i></svg></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCgJtfBNXfId2ArIE_ynfoVA"><i class="fa-brands fa-youtube" style="color: #c0c0c0;"></i></a></li>
+                    <li><a href="https://smartstore.naver.com/imadesignstore"><i class="fa-solid fa-cart-shopping" style="color: #c0c0c0;"></i></a></li>
+                    <li><a href="https://page.stibee.com/subscriptions/139105"><i class="fa-regular fa-envelope" style="color: #c0c0c0;"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
