@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 파비콘/폰트 -->
+    <title>won's portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
+
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<!-- mobile first -->
+<body>
+    <div class="wrap">
+        <header>
+            <div class="navWrap">
+                <h1 id="logo">
+                    <a href="./index.html"><img src="./img/포폴-로고2.png" alt="logo"></a>
+                </h1>
+                <button class="navBtn mobile">
+                    <span>메뉴</span>
+                </button>
+                <nav>
+                    <div class="navIn clear">
+                        <span>
+                            <a href="#"><i class="fa-solid fa-xmark fa-2xl"></i></a>
+                        </span>
+                        <ul>
+                            <li><a href="#logo">HOME</a></li>
+                            <li><a href="#profill">PROFILE</a></li>
+                            <li><a href="#design1">POSTER</a></li>
+                            <li><a href="#design2">Design</a></li>
+                            <li><a href="#web">WEB</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div><!--//navWrap-->
+            <div class="visual">
+                <div class="mvisual mobile">
+                  <p>
+                    2024
+                    <span>
+                      portfolio
+                    </span>
+                    &mdash; Lee Won &mdash;
+                  </p>
+                </div>
+                <div class="visual pc">
+                  <p>
+                    2024
+                    <span>
+                      portfolio
+                    </span>
+                    &mdash; Lee Won &mdash;
+                  </p>
+                </div>
+            </div>
+            <div class="profile" id="profile">
+                    <h2 class="pc">ABOUT ME</h2>
+                    <span class="mabout mobile">ABOUT ME</span>
+                    <div class="mphoto mobile">
+                      <img src="./img/이원.jpg" alt="won">
+                    </div>
+                    <div class="photo pc">
+                      <img src="./img/이원.jpg" alt="won">
+                    </div>
+                  <div class="mtextall mobile">
+                            <div class="mbox1">
+                                <span class="mtitle mobile">profile</span>
+                                <ul>
+                                    <li>이원</li>
+                                    <li>1996.09.11</li>
+                                    <li>wonle41@naver.com</li>
+                                </ul>
+                            </div>
+                            <div class="mbox2">
+                                <span class="mtitle mobile">education</span>
+                                <ul>
+                                    <li>2015 서울공업고등학교 졸업</li>
+                                    <li>2024 MBC 아카데미 UI/UX웹디자인  웹퍼블리셔 프론트엔드 과정 수료</li>
+                                </ul>
+                            </div>
+                            <div class="mbox3">
+                                <span class="mtitle mobile">license</span>
+                                <ul>
+                                    <li>2014 공유압 기능사 자격증 취득</li>
+                                    <li>2015 운전면허 1종 보통 취득</li>
+                                    <li>2024 포토샵 1급 자격증 취득</li>
+                                </ul>
+                            </div>
+                            <div class="mbox4">
+                                <span class="mtitle mobile">skills</span>
+                                <div class="mskill mobile">
+                                    <img src="./img/스킬3.png" alt="skill">
+                                </div>
+                            </div>
+                    </div>
+                  <div class="textall pc">
+                            <div class="box1">
+                                <span class="title pc">profile</span>
+                                <ul>
+                                    <li>이원</li>
+                                    <li>1996.09.11</li>
+                                    <li>wonle41@naver.com</li>
+                                </ul>
+                            </div>
+                            <div class="box2">
+                                <span class="title pc">education</span>
+                                <ul>
+                                    <li>2015 서울공업고등학교 졸업</li>
+                                    <li>2024 MBC 아카데미 UI/UX <br>웹디자인 웹퍼블리셔 프론트엔드 과정 수료</li>
+                                </ul>
+                            </div>
+                            <div class="box3">
+                                <span class="title pc">license</span>
+                                <ul>
+                                    <li>2014 공유압 기능사 자격증 취득</li>
+                                    <li>2015 운전면허 1종 보통 취득</li>
+                                    <li>2024 포토샵 1급 자격증 취득</li>
+                                </ul>
+                            </div>
+                            <div class="box4">
+                                <span class="title pc">skills</span>
+                                <div class="skill">
+                                    <img src="./img/스킬3.png" alt="skill">
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </header>
+        <!-- <nav class="section mobile">
+            <ul>
+                <li class="on"><a href="#design1">POSTER</a></li>
+                <li><a href="#design2">LOGO</a></li>
+                <li><a href="#web">web</a></li>
+            </ul>
+        </nav> -->
+        <div class="main">
+              <section id="design1">
+                  <h3 class="mobile">poster design</h3>
+                  <h3 class="pc">poster design</h3>
+                  <div class="pop poster">
+                      <div class="poster1"></div>
+                  </div>
+                  <div class="contWrap swiper mySwiper"id="poster">
+                      <ul class="swiper-wrapper">
+                          <li class="swiper-slide hover">
+                            <a href="#페이지로 이동"><img src="./img/나의해방일지 포스터2.png" alt="1">
+                            </a>
+                            <div class="pname">
+                              <h3 class="phover">나의 해방일지 <em>사용툴:포토샵<br>기여도:100%</em></h3>
+                            </div>
+                          </li>
+                          <li class="swiper-slide hover">
+                            <a href="#페이지로 이동"><img src="./img/인터스텔라-포스터2.png" alt="2">
+                            </a>
+                            <div class="pname">
+                              <h3 class="phover">인터스텔라<em>사용툴:포토샵<br>기여도:100%</em></h3>
+                            </div>
+                          </li>
+                          <li class="swiper-slide hover">
+                            <a href="#페이지로 이동"><img src="./img/서울의봄-포스터2.png" alt="3">
+                            </a>
+                            <div class="pname">
+                              <h3 class="phover">서울의봄 <em>사용툴:포토샵<br>기여도:100%</em></h3>
+                            </div>
+                          </li>
+                          <li class="swiper-slide hover">
+                            <a href="#페이지로 이동"><img src="./img/듄-포스터2.png" alt="4">
+                            </a>
+                            <div class="pname">
+                              <h3 class="phover">듄<em>사용툴:포토샵<br>기여도:100%</em></h3>
+                            </div>
+                          </li>
+                          <li class="swiper-slide hover">
+                            <a href="#페이지로 이동"><img src="./img/공익광고-포스터2.png" alt="5">
+                            </a>
+                            <div class="pname">
+                              <h3 class="phover">공익광고<em>사용툴:포토샵<br>기여도:100%</em></h3>
+                            </div>
+                          </li>
+                          <li class="swiper-slide hover">
+                            <a href="#페이지로 이동"><img src="./img/마이네임-포스터2.png" alt="6">
+                            </a>
+                            <div class="pname">
+                              <h3 class="phover">마이네임<em>사용툴:포토샵<br>기여도:100%</em></h3>
+                            </div>
+                          </li>      
+                      </ul>
+                      <div class="swiper-pagination pc"></div>
+                  </div>
+                  <script>
+                      var swidth = $("#design1 .swiper-slide").outerWidth();
+                      var swiper = new Swiper("#design1 .mySwiper", {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                        loop: true,
+                        pagination: {
+                          el: ".swiper-pagination",
+                          clickable: true,
+                        },
+                        breakpoints: {
+                          640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                          },
+                          768: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+                          },
+                          1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 50,
+                          },
+                        },
+                      });
+                    </script>
+              </section>
+              <section id="design2">
+                  <h3 class="mobile">Design Works</h3>
+                  <h3 class="pc">Design Works</h3>
+                  <div class="design2pop">
+                      <div class="design2popimg">
+                          <img src="./img/designimg/designimg1.png" alt="1">
+                      </div>
+                  </div>
+                   <div class="design2pageclose">
+                      <a href="#">
+                        <i class="fa-solid fa-xmark fa-2xl"></i>
+                      </a>
+                    </div>
+                  <div class="designWorks pc">
+                      <ul>
+                        <li>
+                          <a href="#">
+                            <img src="./img/designimg/designimg1.png" alt="1">
+                            <div class="dname">
+                                라운드랩 SNS배너
+                            </div>  
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/designimg/designimg2.png" alt="2">
+                            <div class="dname">
+                              고집츄르 SNS배너
+                          </div>  
+                        </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/designimg/설향딸기메인이미지.png" alt="3">
+                            <div class="dname">
+                              설향 딸기 상세페이지
+                          </div>  
+                        </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/designimg/로고메인이미지.png" alt="4">
+                            <div class="dname">
+                              로고 상세페이지
+                          </div>  
+                        </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <img src="./img/designimg/닥터지.png" alt="5">
+                            <div class="dname">
+                              닥터지 상세페이지
+                          </div>  
+                          </a>
+                        </li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                  </div>
+                  <div class="designWorks mobile">
+                    <ul>
+                      <li>
+                        <a href="#">                         
+                          <div class="dname">
+                              라운드랩 SNS배너
+                          </div>  
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">                       
+                          <div class="dname">
+                            고집츄르 SNS배너
+                        </div>  
+                      </a>
+                      </li>
+                      <li>
+                        <a href="#">                      
+                          <div class="dname">
+                            설향 딸기 상세페이지
+                        </div>  
+                      </a>
+                      </li>
+                      <li>
+                        <a href="#">                    
+                          <div class="dname">
+                            로고 상세페이지
+                        </div>  
+                      </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="dname">
+                              닥터지 상세페이지
+                          </div>  
+                        </a>
+                      </li>
+                      <!-- <li><a href="#"></a></li> -->
+                    </ul>
+                </div>
+                  <script>
+                    $('#design2 .designWorks li a').click(function(e){
+                        e.preventDefault();
+                        $('.design2pop').scrollTop(0);
+                        $('.design2pop').addClass('on');
+                        $('.design2pageclose').addClass('on');
+                        let designpop=$(this).parents('#design2 .designWorks li').index();
+                        let designimg=[
+                            "img/designimg/designimg1.png",
+                            "img/designimg/designimg2.png",
+                            "img/designimg/designimg3.png",
+                            "img/designimg/designimg4.png",
+                            "img/designimg/designimg5.png"
+                        ]
+                        $('.design2pop .design2popimg img').attr('src', designimg[designpop]);
+
+
+                    });
+                    $('.design2pageclose').click(function(e){
+                          e.preventDefault();
+                          $('.design2pop').removeClass('on')
+                          $('.design2pageclose').removeClass('on')
+                        })
+                  </script>
+              </section>
+              <section id="web">
+                  <h3 class="mobile">web</h3>
+                  <h3 class="pc">web</h3>
+                  <div class="webpop">
+                      <div class="webpopimg">
+                          <img src="./img/detailpage/detail1.jpg" alt="1">
+                      </div>
+                  </div>
+                  <div class="webpageclose">
+                    <a href="#">
+                      <i class="fa-solid fa-xmark fa-2xl"></i>
+                    </a>
+                  </div>
+                  <div class="swiper container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <img src="./img/비레디.png" alt="1" data-swiper-parallax="-2000">
+                          <div class="textboxall pc">
+                            <div class="textboxweb1">
+                              <ul>
+                                <li class="webtext01" data-swiper-parallax="-800">01</li>
+                                <li class="webtext02" data-swiper-parallax="-800">비레디</li>
+                                <li class="webtext03" data-swiper-parallax="-800">개인 프로젝트 웹사이트 리뉴얼</li>
+                              </ul>
+                            </div>
+                            <div class="textboxweb2">
+                              <ul>
+                                <li class="webtext1" data-swiper-parallax="-800">
+                                  <span class="title1">기여도</span>
+                                  개인작업 100%
+                                </li>
+                                <li class="webtext1" data-swiper-parallax="-800">
+                                  <span class="title1">사용툴</span>
+                                  HTML, CSS, Javascript, Jquery</li>
+                                <li class="webtext1" data-swiper-parallax="-800">
+                                  <span class="title1">FONT</span>
+                                  Noto Sans KR
+                                </li>
+                                <li class="webtext1" data-swiper-parallax="-800">
+                                  <span class="title1">COLOR</span>
+                                  <div class="color1">1</div>
+                                  <div class="color2">2</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="button pc" data-swiper-parallax="-1000">
+                              <a href="https://www.brdy-official.com/" target="_blank">original</a>
+                              <a href="./web/비레디/index.html" target="_blank">website</a>
+                              <a href="#" class="webidbtn">작업과정</a>
+                          </div>
+                          <div class="button mobile"  data-swiper-parallax="-1000">
+                              <a href="https://www.brdy-official.com/" target="_blank">original</a>
+                              <a href="./web/비레디/index.html" target="_blank">website</a>
+                              <!-- <a href="#" class="webidbtn">작업과정</a> -->
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/엔제리너스.png" alt="2" data-swiper-parallax="-2000">
+                          <div class="textboxall pc">
+                            <div class="textboxweb1">
+                              <ul>
+                                <li class="webtext01-2" data-swiper-parallax="-800">02</li>
+                                <li class="webtext02" data-swiper-parallax="-800">엔제리너스</li>
+                                <li class="webtext03" data-swiper-parallax="-800">개인 프로젝트 웹사이트 리뉴얼</li>
+                              </ul>
+                            </div>
+                          <div class="textboxweb2">
+                            <ul>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">기여도</span>
+                                개인작업 100%
+                              </li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">사용툴</span>
+                                HTML, CSS, Javascript, Jquery</li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">FONT</span>
+                                NanumGothic
+                              </li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">COLOR</span>
+                                <div class="color3">1</div>
+                                <div class="color4">2</div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="button pc" data-swiper-parallax="-1000">
+                            <a href="https://www.lotteeatz.com/brand/angel" target="_blank">original</a>
+                            <a href="./web/엔젤리너스(공차)_이원/index.html" target="_blank">website</a>
+                            <a href="#" class="webidbtn">작업과정</a>
+                        </div>
+                        <div class="button mobile"  data-swiper-parallax="-1000">
+                          <a href="https://www.lotteeatz.com/brand/angel" target="_blank">original</a>
+                          <a href="./web/엔젤리너스(공차)_이원/index.html" target="_blank">website</a>
+                          <!-- <a href="#" class="webidbtn">작업과정</a> -->
+                      </div>
+                        </div>
+                      <div class="swiper-slide">
+                          <img src="./img/너의 이름은.png" alt="2" data-swiper-parallax="-2000">
+                          <div class="textboxall pc">
+                            <div class="textboxweb1">
+                              <ul>
+                                <li class="webtext01-3" data-swiper-parallax="-800">03</li>
+                                <li class="webtext02" data-swiper-parallax="-800">너의 이름은</li>
+                                <li class="webtext03" data-swiper-parallax="-800">개인 창작 웹사이트</li>
+                              </ul>
+                            </div>
+                          <div class="textboxweb2">
+                            <ul>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">기여도</span>
+                                개인작업 100%
+                              </li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">사용툴</span>
+                                HTML, CSS, Javascript, Jquery</li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">FONT</span>
+                                GmarketSansMedium
+                              </li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">COLOR</span>
+                                <div class="color5">1</div>
+                                <div class="color6">2</div>
+                                <div class="color6-1">3</div>
+                                <div class="color6-2">4</div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="button pc" data-swiper-parallax="-1000">
+                            <a href="./web/너의 이름은/index1.html" target="_blank">website</a>
+                            <a href="#" id="fontcolor" class="webidbtn">작업과정</a>
+                        </div>
+                        <div class="button mobile" id="button3" data-swiper-parallax="-1000">
+                          <a href="./web/너의 이름은/index1.html" target="_blank">website</a>
+                          <!-- <a href="#" id="fontcolor" class="webidbtn">작업과정</a> -->
+                      </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="./img/일민미술관.png" alt="2" data-swiper-parallax="-2000">
+                          <div class="textboxall pc">
+                            <div class="textboxweb1">
+                              <ul>
+                                <li class="webtext01-4" data-swiper-parallax="-800">04</li>
+                                <li class="webtext02" data-swiper-parallax="-800">일민미술관</li>
+                                <li class="webtext03" data-swiper-parallax="-800">팀 프로젝트 웹사이트 리뉴얼</li>
+                              </ul>
+                            </div>
+                          <div class="textboxweb2">
+                            <ul>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">기여도</span>
+                                팀작업(2인) 50%
+                              </li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">사용툴</span>
+                                HTML, CSS, Javascript, Jquery</li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">FONT</span>
+                                EB Garamond, Noto Sans KR
+                              </li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">COLOR</span>
+                                <div class="color7">1</div>
+                                <div class="color8">2</div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="button pc" data-swiper-parallax="-1000">
+                            <a href="https://ilmin.org/" target="_blank">original</a>
+                            <a href="./web/일민미술관/index.html" target="_blank">website</a>
+                            <a href="#" class="webidbtn">작업과정</a>
+                        </div>
+                        <div class="button mobile"  data-swiper-parallax="-1000">
+                          <a href="https://ilmin.org/" target="_blank">original</a>
+                          <a href="./web/일민미술관/index.html" target="_blank">website</a>
+                          <!-- <a href="#" class="webidbtn">작업과정</a> -->
+                      </div>
+                        </div>
+                      <div class="swiper-slide">
+                          <img src="./img/데일리호텔.png" alt="2" data-swiper-parallax="-2000">
+                          <div class="iphone pc">
+                            <img src="./img/데일리호텔 아이폰.png" alt="ip1" data-swiper-parallax="-2000">
+                          </div>
+                          <div class="iphone mobile">
+                            <img src="./img/데일리호텔 아이폰.png" alt="ip1" data-swiper-parallax="-2000">
+                          </div>
+                          <div class="textboxall pc">
+                            <div class="textboxweb1">
+                              <ul>
+                                <li class="webtext01-5" data-swiper-parallax="-800">05</li>
+                                <li class="webtext02" data-swiper-parallax="-800">데일리호텔(반응형)</li>
+                                <li class="webtext03" data-swiper-parallax="-800">개인 프로젝트 웹사이트 리뉴얼</li>
+                              </ul>
+                            </div>
+                          <div class="textboxweb2">
+                            <ul>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">기여도</span>
+                                개인작업 100%
+                              </li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">사용툴</span>
+                                HTML, CSS</li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">FONT</span>
+                                GmarketSansMedium
+                              </li>
+                              <li class="webtext1" data-swiper-parallax="-800">
+                                <span class="title1">COLOR</span>
+                                <div class="color9">1</div>
+                                <div class="color10">2</div>
+                                <div class="color11">2</div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="button pc" data-swiper-parallax="-1000">
+                            <a href="https://www.dailyhotel.com/" target="_blank">original</a>
+                            <a href="./web/호텔/index1.html" target="_blank">website</a>
+                            <a href="#" class="webidbtn">작업과정</a>
+                        </div>
+                        <div class="button mobile"  data-swiper-parallax="-1000">
+                            <a href="https://www.dailyhotel.com/" target="_blank">original</a>
+                            <a href="./web/호텔/index1.html" target="_blank">website</a>
+                            <!-- <a href="#" class="webidbtn">작업과정</a> -->
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination pc"></div>
+                    <div class="swiper-button-next pc"></div>
+                    <div class="swiper-button-prev pc"></div>
+                    <div class="swiper-button-next mobile"></div>
+                    <div class="swiper-button-prev mobile"></div>
+                  
+                  <script>
+                    var swiper = new Swiper(".container", {
+                      spaceBetween: 30,
+                      parallax: true,
+                      effect: "fade",
+                      navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                      },
+                      pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                      },
+                  
+                    });
+                    //webpop
+                    $('#web .webidbtn').click(function(e){
+                        e.preventDefault();
+                        $('.webpop').scrollTop(0);
+                        $('.webpop').addClass('on');
+                        $('.webpageclose').addClass('on');
+                        let webpop=$(this).parents('#web .swiper-slide').index();
+                        let detailimg=[
+                            "img/detailpage/detail1.jpg",
+                            "img/detailpage/detail2.jpg",
+                            "img/detailpage/detail3.jpg",
+                            "img/detailpage/detail4.jpg",
+                            "img/detailpage/detail5.jpg"
+                        ]
+                        $('.webpop .webpopimg img').attr('src', detailimg[webpop]);
+
+                    
+                    });
+                    $('.webpageclose').click(function(e){
+                          e.preventDefault();
+                          $('.webpop').removeClass('on')
+                          $('.webpageclose').removeClass('on')
+                        })
+                  </script>
+            </section>   
+          </div>
+          <footer id="contact">
+            <h3 class="mobile">contact</h3>
+            <h3 class="pc">contact</h3>
+              <div class="foot1 pc">
+                <span class="foottext pc">thank you~</span>
+                <span class="foottext2 pc">wonle41@naver.com</span>
+              </div>
+              <div class="foot2 pc">
+                <span class="foottext3 pc">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다. <br>
+                  © 2024 Lee Won All Rights Reserved.</span>
+              </div>
+              <div class="foot1 mobile">
+                <span class="foottext mobile">thank you~</span>
+                <span class="foottext2 mobile">wonle41@naver.com</span>
+              </div>
+              <div class="foot2 mobile">
+                <span class="foottext3 mobile">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다. <br>
+                  © 2024 Lee Won All Rights Reserved.</span>
+              </div>
+          </footer>
+        </div>
+</body>
+</html>
